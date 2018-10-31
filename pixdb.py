@@ -1,13 +1,5 @@
 from PIL import Image
-import string
 import os
-
-
-class NotAscii(Exception):
-    pass
-
-class InvalidType(Exception):
-    pass
 
 
 class PixDB:
